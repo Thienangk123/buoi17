@@ -1,0 +1,66 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+style {
+  text-align: center;
+  line-height: 120px;
+  color: rgb(255, 255, 255);
+  background-color: transparent; /* Tắt màu nền */
+  flex: 0 0 200px;
+  max-width: 200px;
+  min-width: 200px;
+  width: 200px;
+}
+.ant-menu-item {
+  padding: 0; /* Loại bỏ padding của phần tử chứa nếu không cần thiết */
+  text-align: center; /* Căn giữa nội dung theo chiều ngang */
+}
+
+.ant-menu-item img {
+  width: 100px; /* Đặt chiều rộng của hình ảnh */
+  height: auto; /* Để chiều cao tự động điều chỉnh theo tỷ lệ */
+  margin: 10px auto; /* Căn giữa hình ảnh theo chiều ngang */
+  display: block; /* Hiển thị như khối để áp dụng margin */
+  object-fit: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ diện tích mà không bị vỡ */
+  border-radius: 50%; /* Tạo hình tròn cho hình ảnh */
+}
+
