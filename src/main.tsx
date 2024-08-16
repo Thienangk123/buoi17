@@ -42,31 +42,20 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 import ProductPage from "./pages/ProductPage";
+import Login from "./components/Login";
 
 const router = createBrowserRouter([
 
   {
     path: "/",
-    element: <App />,},
-    {
-      path: "products-page",
-      element: <ProductPage/>,
-    },
+    element: <Login />},
   {
     path: "/pages",
     element: <App />,
     children: [
       {
-        path: "component",
-        element: <h1>end</h1>,
-      },
-      {
-        path: "file-templates",
-        element: <h1>file</h1>,
-      },
-      {
-        path: "plugins",
-        element: <h1>plugins</h1>,
+        path: "product",
+        element: <ProductPage />,
       },
     ],
   },

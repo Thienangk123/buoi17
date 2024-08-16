@@ -1,0 +1,25 @@
+/* CSS để căn giữa nội dung trong body */
+body {
+    height: 100vh;  /* Chiếm toàn bộ chiều cao của viewport */
+    margin: 0;      /* Xóa bỏ margin mặc định */
+    display: flex;  /* Sử dụng Flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    background-color: #eee; /* Màu nền tùy chọn */
+    background-image: url('/images/image.png'); /* Đặt hình ảnh làm nền */
+    background-size: cover;   /* Phủ toàn bộ không gian mà không bị biến dạng */
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-color: #eee;   /* Màu nền dự phòng nếu hình ảnh không tải */
+    overflow: hidden;         /* Ẩn thanh cuộn nếu có */
+  }
+  
+  .login-container {
+    max-width: 600px;  /* Đặt chiều rộng tối đa cho container */
+    width: 100%;       /* Đảm bảo container chiếm toàn bộ chiều rộng */
+    padding: 20px;    /* Thêm khoảng cách xung quanh nội dung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng */
+    background: #fff; /* Màu nền cho container */
+    border-Radius:40px;
+  }
+  
